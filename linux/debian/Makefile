@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 BUILD=fakeroot dpkg-deb --build
 RM=rm -rf
 LINTIAN=lintian
