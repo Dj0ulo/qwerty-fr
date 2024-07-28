@@ -8,13 +8,13 @@ xkb_symbols "qwerty-fr"
     name[Group1]= "US keyboard with french symbols - AltGr combination";
 
     key <TLDE> { [ grave,        asciitilde,  dead_grave,             dead_tilde           ] };
-    key <AE01> { [ 1,            exclam,      onesuperior,            exclamdown           ] };
+    key <AE01> { [ 1,            exclam,      dead_abovering,         exclamdown           ] };
     key <AE02> { [ 2,            quotedbl,    at,                     twosuperior          ] };
     key <AE03> { [ 3,            numbersign,  ecircumflex,            Ecircumflex          ] };
     key <AE04> { [ 4,            dollar,      EuroSign,               dead_currency        ] }; // FIXME: dead_currency has a different mapping than the one we want for qwerty-fr. Need to define a custom dead key instead. See Windows layout for dead key definition.
     key <AE05> { [ 5,            percent,     dead_macron,            dead_abovedot        ] };
-    key <AE06> { [ 6,            ampersand,   notequal,               approxeq             ] };
-    key <AE07> { [ 7,            asciicircum, ucircumflex,            Ucircumflex          ] };
+    key <AE06> { [ 6,            asciicircum, notequal,               approxeq             ] };
+    key <AE07> { [ 7,            ampersand,   ucircumflex,            Ucircumflex          ] };
     key <AE08> { [ 8,            parenleft,   icircumflex,            Icircumflex          ] };
     key <AE09> { [ 9,            parenright,  ocircumflex,            Ocircumflex          ] };
     key <AE10> { [ 0,            equal,       oslash,                 Oslash               ] };
