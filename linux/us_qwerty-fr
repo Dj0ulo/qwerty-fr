@@ -9,17 +9,17 @@ xkb_symbols "qwerty-fr"
 
     key <TLDE> { [ grave,        asciitilde,  dead_grave,             dead_tilde           ] };
     key <AE01> { [ 1,            exclam,      dead_abovering,         exclamdown           ] };
-    key <AE02> { [ 2,            quotedbl,    at,                     twosuperior          ] };
+    key <AE02> { [ 2,            at,          quotedbl,               twosuperior          ] };
     key <AE03> { [ 3,            numbersign,  ecircumflex,            Ecircumflex          ] };
     key <AE04> { [ 4,            dollar,      EuroSign,               dead_currency        ] }; // FIXME: dead_currency has a different mapping than the one we want for qwerty-fr. Need to define a custom dead key instead. See Windows layout for dead key definition.
     key <AE05> { [ 5,            percent,     dead_macron,            dead_abovedot        ] };
     key <AE06> { [ 6,            asciicircum, notequal,               approxeq             ] };
     key <AE07> { [ 7,            ampersand,   ucircumflex,            Ucircumflex          ] };
-    key <AE08> { [ 8,            parenleft,   icircumflex,            Icircumflex          ] };
-    key <AE09> { [ 9,            parenright,  ocircumflex,            Ocircumflex          ] };
-    key <AE10> { [ 0,            equal,       oslash,                 Oslash               ] };
+    key <AE08> { [ 8,            asterisk,    icircumflex,            Icircumflex          ] };
+    key <AE09> { [ 9,            parenleft,   ocircumflex,            Ocircumflex          ] };
+    key <AE10> { [ 0,            parenright,  oslash,                 Oslash               ] };
     key <AE11> { [ minus,        underscore,  endash,                 emdash               ] };
-    key <AE12> { [ plus,         asterisk,    asciitilde,             asciicircum          ] };
+    key <AE12> { [ equal,        plus,        asciitilde,             asciicircum          ] };
     
     key <AD01> { [ q,            Q,           acircumflex,            Acircumflex          ] };
     key <AD02> { [ w,            W,           eacute,                 Eacute               ] };
@@ -55,8 +55,8 @@ xkb_symbols "qwerty-fr"
     key <AB05> { [ b,            B,           ssharp,                 U1E9E                ] }; // ß, ẞ (capital)
     key <AB06> { [ n,            N,           ntilde,                 Ntilde               ] };
     key <AB07> { [ m,            M,           VoidSymbol,             VoidSymbol           ] };
-    key <AB08> { [ comma,        semicolon,   dead_cedilla,           dead_ogonek          ] };
-    key <AB09> { [ period,       colon,       periodcentered,         ellipsis             ] }; // ., >, ·, …
+    key <AB08> { [ comma,        less,        dead_cedilla,           dead_ogonek          ] };
+    key <AB09> { [ period,       greater,     periodcentered,         ellipsis             ] }; // ., >, ·, …
     key <AB10> { [ slash,        question,    backslash,              bar                  ] }; // /, ?, ’, ¿
     key <SPCE> { [ space,        space,       nobreakspace,           0x100202F            ] }; // espace insécable fine
 
